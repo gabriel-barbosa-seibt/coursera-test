@@ -1,0 +1,110 @@
+body {
+    font-size: 16px;
+  }
+
+/**HEADER**/
+
+hr {
+    margin: 0;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+#header-nav {
+    background-color: #5164b1;
+    border-radius: 0px;
+    border: 0;
+}
+
+.navbar-brand {
+  padding-top: 12px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 9px;
+}
+/* END HEADER */
+
+
+  /* Home Page */
+
+#main-content h2 {
+    margin-bottom: 30px;
+    color: black;
+}
+
+.row div {
+    background-color: rgb(124, 152, 228);
+    margin-bottom: 30px;
+    color: black;
+}
+
+#main-content h3 {
+    margin: 15px 0 15px;
+}
+
+/* End Home Page */
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  /* Header */
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+  /* End Header */
+
+  /* Home Page */
+
+  .row {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* End Home Page */
+}
